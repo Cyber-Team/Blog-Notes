@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Interactive CTF Challenges',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Solve thrilling, real-world cybersecurity problems with a gamified leaderboard 
+        and exclusive rewards for top performers.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Virtual Cyber Lab',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         Access cutting-edge tools and hands-on labs to master ethical hacking, 
+         penetration testing, and digital forensics in a safe, simulated environment.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Expert-Led Masterclasses',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Learn directly from seasoned professionals and alumni through live workshops, tutorials, 
+        and Q&A sessions tailored to current industry trends.
       </>
     ),
   },

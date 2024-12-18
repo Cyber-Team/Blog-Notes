@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CyberTeam',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'We Start, When The World Halts!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -77,10 +77,12 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'CyberTeam',
+        style: 'dark',
         logo: {
           alt: 'CyberTeam Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.png',
         },
+        
         items: [
           {
             type: 'docSidebar',
@@ -90,21 +92,26 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Cyber-Team',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Notes',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Masterclass',
+                to: '/docs/Masterclass - Notes/Week 1/Day 1',
               },
             ],
           },
@@ -112,16 +119,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'WhatsApp',
+                href: 'https://whatsapp.com/channel/0029ValPrcNDOQIYWkm2Zi2X',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/thecyberteam',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/cyberteam00',
               },
             ],
           },
@@ -134,12 +141,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Cyber-Team',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Built by CyberTeam.`,
       },
       prism: {
         theme: prismThemes.github,

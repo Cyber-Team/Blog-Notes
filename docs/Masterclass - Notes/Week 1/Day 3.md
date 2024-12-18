@@ -45,4 +45,8 @@
      sudo yum install packagename
      ```
 
+### Learning Outcomes for Week 1
+- ✅ A fully functional lab environment using VirtualBox and Kali Linux.
+- ✅ A solid foundation in Linux navigation and basic commands.
+- ✅ An understanding of user management, permissions, and package management.
 ---
